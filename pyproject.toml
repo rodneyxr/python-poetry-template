@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = "This is a template for Python projects using Poetry."
+authors = ["First Last <anon@email.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.1.7"
+
+[tool.poetry.dev-dependencies]
+pytest-cov = "^5.0.0"
+pytest = "^8.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+app = 'app.cli:cli'
