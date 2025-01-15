@@ -1,3 +1,7 @@
+## Deprecated
+
+This project has been deprecated in favor of [python-uv-template](https://github.com/rodneyxr/python-uv-template).
+
 # Template Project
 
 This is a template project for a Python application using Poetry for dependency management and pytest for testing.
